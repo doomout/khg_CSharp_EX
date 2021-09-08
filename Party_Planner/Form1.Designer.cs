@@ -66,19 +66,20 @@ namespace Party_Planner
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.White;
             this.tabPage1.Controls.Add(this.costLabel);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.chk_Healthy);
             this.tabPage1.Controls.Add(this.chk_Fancy);
             this.tabPage1.Controls.Add(this.numericUpDown1);
             this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage1.Location = new System.Drawing.Point(4, 24);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(208, 244);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "저녁 파티";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // costLabel
             // 
@@ -88,6 +89,7 @@ namespace Party_Planner
             this.costLabel.Name = "costLabel";
             this.costLabel.Size = new System.Drawing.Size(112, 25);
             this.costLabel.TabIndex = 11;
+            this.costLabel.Text = "$";
             // 
             // label2
             // 
