@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Party_Planner
 {
-    class BirthdayParty
+    class BirthdayParty : Party
     {
-        public const int CostOfFoodPerPerson = 25; //손님 1인당 25달러는 고정
-        public int NumberOfPeople { get; set; } //파티 참여자 수
-        public bool FancyDecorations { get; set; } 
+        
         public string CakeWriting { get; set; }
 
         public BirthdayParty(int numberOfPeople, bool fancyDecorations, string cakeWriting)
@@ -64,22 +62,11 @@ namespace Party_Planner
             }
         }
 
-
-        private decimal CalculateCostOfDecorations()
-        {
-            decimal costOfDecorations;
-            if (FancyDecorations)
-                costOfDecorations = (NumberOfPeople * 15.00m) + 50m;
-            else
-                costOfDecorations = (NumberOfPeople * 7.5m) + 30m;
-            return costOfDecorations;
-        }
-
-        public decimal Cost
+        override public decimal Cost
         {
             get
             {
-                decimal totalCost = CalculateCostOfDecorations();
+                decimal totalCost = base.Cost;
                 totalCost += CostOfFoodPerPerson * NumberOfPeople;
                 decimal cakeCost;
                 if (CakeSize() == 8)

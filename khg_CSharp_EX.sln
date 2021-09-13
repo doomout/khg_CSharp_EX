@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Party_Planner", "Party_Planner\Party_Planner.csproj", "{EF97C69E-2DE7-4E67-B171-2723CE8C5E59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Party_Planner", "Party_Planner\Party_Planner.csproj", "{EF97C69E-2DE7-4E67-B171-2723CE8C5E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmer_EX", "Farmer_EX\Farmer_EX.csproj", "{6A39B492-E256-45FF-B980-E309BA61775C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmer_EX", "Farmer_EX\Farmer_EX.csproj", "{6A39B492-E256-45FF-B980-E309BA61775C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beehive_Management_System", "Beehive_Management_System\Beehive_Management_System.csproj", "{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6A39B492-E256-45FF-B980-E309BA61775C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A39B492-E256-45FF-B980-E309BA61775C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A39B492-E256-45FF-B980-E309BA61775C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
