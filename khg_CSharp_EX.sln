@@ -7,7 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Party_Planner", "Party_Plan
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmer_EX", "Farmer_EX\Farmer_EX.csproj", "{6A39B492-E256-45FF-B980-E309BA61775C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beehive_Management_System", "Beehive_Management_System\Beehive_Management_System.csproj", "{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beehive_Management_System", "Beehive_Management_System\Beehive_Management_System.csproj", "{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface_EX", "Interface_EX\Interface_EX.csproj", "{269EA3A2-DAAC-49E3-9F7B-D1494BBAB3D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hide_Seek_EX", "Hide_Seek_EX\Hide_Seek_EX.csproj", "{1B2740B0-192E-4D87-A40B-963B1AED2BCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enum_card_EX", "enum_card_EX\enum_card_EX.csproj", "{A2C8E371-8A99-4678-8303-8F9C31631721}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lotto_EX", "Lotto_EX\Lotto_EX.csproj", "{FF30FE5A-9C71-4655-9336-8BB7BF63F8F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,22 @@ Global
 		{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC18FB3F-CB92-4E52-9785-70D21E4D07C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269EA3A2-DAAC-49E3-9F7B-D1494BBAB3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269EA3A2-DAAC-49E3-9F7B-D1494BBAB3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269EA3A2-DAAC-49E3-9F7B-D1494BBAB3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269EA3A2-DAAC-49E3-9F7B-D1494BBAB3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2740B0-192E-4D87-A40B-963B1AED2BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2740B0-192E-4D87-A40B-963B1AED2BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2740B0-192E-4D87-A40B-963B1AED2BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2740B0-192E-4D87-A40B-963B1AED2BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C8E371-8A99-4678-8303-8F9C31631721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C8E371-8A99-4678-8303-8F9C31631721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C8E371-8A99-4678-8303-8F9C31631721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C8E371-8A99-4678-8303-8F9C31631721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF30FE5A-9C71-4655-9336-8BB7BF63F8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF30FE5A-9C71-4655-9336-8BB7BF63F8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF30FE5A-9C71-4655-9336-8BB7BF63F8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF30FE5A-9C71-4655-9336-8BB7BF63F8F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
